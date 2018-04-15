@@ -2,6 +2,10 @@
 
 Programmatically install npm packages.
 
+This is used by [webpack-proxy](https://github.com/egoist/webpack-proxy), here's a preview:
+
+<img src="https://cdn.rawgit.com/egoist/76286067838fbd60db786b5a75df386c/raw/63a63a8f0a732f17e38427e33daa8ab79beec7d6/webpack-proxy.svg" alt="preview" width="500">
+
 ## Install
 
 ```bash
