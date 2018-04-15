@@ -45,6 +45,12 @@ Default: `true`
 
 Install peer dependencies for corresponding dependency.
 
+##### peerFilter
+
+Type: `(name: string, version: string) => boolean`
+
+A function to filter peerDependencies, return `true` to install it, `false` otherwise.
+
 ##### saveDev
 
 Type: `boolean`<br>
