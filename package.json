@@ -1,0 +1,55 @@
+{
+  "name": "install-packages",
+  "version": "1.0.0",
+  "description": "Install dependencies using Yarn with npm fallback.",
+  "license": "MIT",
+  "repository": "egoist/install-packages",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "https://github.com/egoist"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "jest -i && npm run lint",
+    "lint": "xo"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "yarn",
+    "install"
+  ],
+  "devDependencies": {
+    "eslint-config-rem": "^3.1.0",
+    "execa": "^0.5.0",
+    "jest": "^22.4.3",
+    "require-uncached": "^1.0.3",
+    "rimraf": "^2.6.2",
+    "xo": "^0.18.2"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "xo": {
+    "extends": "rem",
+    "envs": [
+      "jest"
+    ],
+    "rules": {
+      "no-unused-expressions": "off",
+      "unicorn/filename-case": "off"
+    }
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "command-exists": "^1.2.6",
+    "cross-spawn": "^4.0.2",
+    "joycon": "^0.2.0",
+    "resolve": "^1.7.1"
+  }
+}
