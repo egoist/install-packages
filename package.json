@@ -50,6 +50,7 @@
     "command-exists": "^1.2.6",
     "cross-spawn": "^4.0.2",
     "joycon": "^0.2.0",
+    "parse-package-name": "^0.1.0",
     "resolve": "^1.7.1"
   }
 }
