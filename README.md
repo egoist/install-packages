@@ -17,7 +17,9 @@ yarn add install-packages
 ```js
 const install = require('install-packages')
 
-install(['webpack', 'mocha'])
+install({
+  packages: ['webpack', 'mocha']
+})
 //=> Promise
 ```
 
