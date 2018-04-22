@@ -26,7 +26,9 @@ afterAll(() => {
 })
 
 test('simple', async () => {
-  await install(['buble-loader'], fixture('simple'), {
+  await install({
+    packages: ['buble-loader'],
+    cwd: fixture('simple'),
     peerFilter(name) {
       return name !== 'webpack'
     }

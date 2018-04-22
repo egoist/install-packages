@@ -5,7 +5,9 @@ const install = require('../lib')
 
 fs.writeFileSync('./example/package.json', '{}', 'utf8')
 
-install(['buble-loader'], path.resolve('example'), {
+install({
+  packages: ['buble-loader'],
+  cwd: path.resolve('example'),
   peerFilter: name => name !== 'webpack'
 }).then(() => {
   rm.sync('example/{package.json,yarn.lock,node_modules}')

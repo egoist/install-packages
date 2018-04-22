@@ -23,20 +23,22 @@ install(['webpack', 'mocha'])
 
 ## API
 
-### install(packages, [cwd], [options])
+### install(options)
 
-#### packages
+#### options
+
+##### packages
 
 Type: `string[]`
 
-#### cwd
+You can omit this to install dependencies from `package.json`.
+
+##### cwd
 
 Type: `string`<br>
 Default: `process.cwd()`
 
 The directory to install packages.
-
-#### options
 
 ##### installPeers
 
