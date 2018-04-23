@@ -2641,9 +2641,9 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
-joycon@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/joycon/-/joycon-0.2.0.tgz#02b15e954724881fe8afcbe64af182a5363b829e"
+joycon@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/joycon/-/joycon-1.0.2.tgz#d23082605deaef70913cc1bf92296d9cf915112a"
   dependencies:
     json5 "^1.0.1"
 
